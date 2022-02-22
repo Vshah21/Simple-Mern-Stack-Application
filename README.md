@@ -8,9 +8,7 @@ Open the project and install node dependencies.
 
 ```shell
 $ cd server
-```
-**With NPM**
-```shell
+
 $ npm install 
 ```
 
@@ -22,11 +20,9 @@ Start React
 
 ```shell
 $ cd client
-```
-**With NPM**
-```shell
+
 $ npm Start 
 ```
 
 **Note**
-Need to add your own MongoDB URL connection using Mongo atlas
+Need to add your own MongoDB URL connection using Mongo atlas.
