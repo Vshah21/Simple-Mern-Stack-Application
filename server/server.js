@@ -10,7 +10,7 @@ const cors = require('cors');
 const app = express();
 
 console.log(config.mongoUri)
-const uri = "mongodb+srv://vshah19:jEElDMH6umPbvMRv@cluster0.s6h0j.mongodb.net/myFirstDatabase?retryWrites=true&w=majority"
+const uri = config.mongoUri
 mongoose.connect(uri);
 
 const connection = mongoose.connection;
